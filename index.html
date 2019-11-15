@@ -57,9 +57,7 @@
             <div @click="backToInput" class="btn" v-t="'output.back'"></div>
         </div>
         <footer class="footer" v-show="!loading && !output">
-            <ul class="lang">
-                <li @click="changeLang(value)" v-for="(value, key) in languages" :key="value">{{key}}</li>
-            </ul>
+     
             <div class="meta">
                 <a href="https://weibo.com/u/6470368809">某人的微博</a>
                 <a href="#">点我没用</a>
